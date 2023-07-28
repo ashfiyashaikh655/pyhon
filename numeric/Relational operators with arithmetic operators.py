@@ -1,0 +1,36 @@
+#this is a relational operators
+a1=-2
+a2=-7
+a3=6
+a4=-2
+a5=-7
+a6=8
+a7=9
+a8=-4
+print()
+print('this is a relational operators')
+print('a1=',a1,'a2=',a2,'a3=',a3,'a4=',a4,'a5=',a5,'a6=',a6,'a7=',a7,'a8=',a8)
+result1=a2*a6//a3<a4*a6-a8//a1
+print('result1=a2*a6//a3<a4*a6-a8//a1',result1)
+result2=a6//a2+a6-a4<=a3*a2
+print('result2=a6//a2+a6-a4>a3*a2',result2)
+result3=a6%a8//a1>a3+a2*a5
+print('result3=a6%a8//>a3+a2*a5',result3)
+result4=a3*a2/a5>=a3//a2+a1
+print('result4=a3*a2/a5>=a3//a2+a1',result4)
+result5=a5+a4//a3>=a3-a7*a5
+print('result5=a5+a4//a3>=a3-a7*a5',result5)
+result6=a7*a3//a1>=a3+a7-a2
+print('result6=a7*a3//a1>=a3+a7-a2',result6)
+result7=a1%a3*a4//a2==a6+a4*a1
+print('result7=a1%a3*a4//a2==a6+a4*a1',result7)
+result8=a7!=a6//a1==a3*a4/a2
+print('result8=a7!a6//a1==a3*a4/a2',result8)
+result9=a6/a1!=a7*a2//a1
+print('result9=a6/a1!=a7*a2//a1',result9)
+result10=a3//a5+a2*a1!=a6+a5//a3
+print('result10=a3//a5a2*a1!=a6+a5//a3',result10)
+result11=a3+a2-a1//a6>=a3+a7*a1
+print('result11=a3+a2-a1//a6>=a3+a7*a1',result11)
+result12=a2*a4//a3!=a6%a5+a7
+print('result12=a2*a4//a3!a6%a5+a7',result12)
