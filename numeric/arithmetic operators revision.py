@@ -1,0 +1,16 @@
+print()
+a1=10
+b1=6
+print('a1=',a1,'b1=',b1)
+c1=a1+b1
+print('c1=a1+b1',c1)
+c1=a1-b1
+print('c1=a1-b1',c1)
+c1=a1%b1
+print('c1=a1%b1',c1)
+c1=a1*b1
+print('c1=a1*b1',c1)
+c1=a1/b1
+print('c1=a1/b1',c1)
+c1=a1//b1
+print('c1=a1//1',c1)
