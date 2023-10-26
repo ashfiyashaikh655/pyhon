@@ -1,0 +1,23 @@
+def f1(*pargs):
+    print(pargs)
+f1(1,2,3,4,5,6)
+
+print()
+def f2(**kargs):
+    print(kargs)
+f2(name='raju mane',age=32,skill='python')
+
+def f3(a,b,c,d,e,f,g,*pargs,**kargs):
+    print('a:',a)
+    print('b:',b)
+    print('c:',c)
+    print('d:',d)
+    print('e:',e)
+    print('f:',f)
+    print('g:',g)
+    print('pargs:',pargs)
+    print('kargs :',kargs)
+
+    
+f3(1,2,8,-6,65,43,234,34,48,name='raju mane',age=32)
+
